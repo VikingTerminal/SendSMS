@@ -1,6 +1,8 @@
 from twilio.rest import Client
 from twilio.base.exceptions import TwilioRestException
 
+print("\033[91mBenvenuto e grazie per usare questo tool.\033[0m Visita https://github.com/VikingTerminal per provare altre utility.")
+
 def invia_sms(account_sid, auth_token, destinatario_numero, tuo_numero_twilio, testo_messaggio):
     try:
         
